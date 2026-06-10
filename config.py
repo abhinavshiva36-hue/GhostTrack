@@ -1,0 +1,16 @@
+# Configuration settings for ABHINAV TRACKER
+
+REQUEST_TIMEOUT = 10
+RATE_LIMIT_DELAY = 0.5
+
+IP_API_PRIMARY = "http://ip-api.com/json/"
+IP_API_SECONDARY = "https://ipapi.co/json/"
+
+VERBOSE = True
+COLORIZE_OUTPUT = True
+PHONE_VALIDATE_FORMAT = True
+DNS_TIMEOUT = 5
+DNS_RETRIES = 2
+ENABLE_CACHE = True
+CACHE_DURATION = 3600
+TERMUX_MODE = True
